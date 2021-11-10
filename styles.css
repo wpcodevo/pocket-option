@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+:root {
+  --primary: #222;
+  --red-1: #f50000;
+  --red-2: #cc0000;
+  --blue: #007bff;
+  --green: #00cc00;
+  --white: #fff;
+  --grey: #ddd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  background-color: var(--white);
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.blue {
+  color: var(--blue);
+  font-weight: 700;
+}
+.blue:hover {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.green {
+  color: var(--green);
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.red-2 {
+  color: var(--red-2);
+}
+
+.logo {
+  text-align: center;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1;
+}
+.logo h1 {
+  display: inline-block;
+  font-size: 4rem;
+  font-weight: 800;
+  color: #004f93;
+  margin: 0;
+  line-height: 1;
+}
+
+@media (min-width: 567px) {
+  .logo h1 {
+    font-size: 7rem;
+  }
+}
+.content {
+  padding-bottom: 4rem;
+}
+.content .title {
+  border-bottom: 1px solid var(--grey);
+  padding-bottom: 3rem;
+  margin-bottom: 4rem;
+}
+.content .title h1 {
+  font-size: 5rem;
+  line-height: 1.2;
+}
+.content .title h1 a {
+  font-weight: 400;
+  font-size: 4rem;
+  color: var(--red-1);
+}
+.content .pic-1 {
+  float: left;
+  width: 25rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+.content p,
+.content li {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  line-height: 3.5rem;
+}
+.content h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.content h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.content ul,
+.content ol {
+  margin-left: 2rem;
+}
+.content ul .text,
+.content ol .text {
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+.content .center {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.content .pic-2 {
+  max-width: 90%;
+}
+
+.button {
+  text-align: center;
+  margin-top: 3rem;
+}
+.button .btn {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 1.2rem 10rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.comments {
+  margin-top: 4rem;
+  padding-bottom: 10rem;
+}
+.comments .top {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--grey);
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.comments .comment {
+  align-items: flex-start;
+  padding-bottom: 3rem;
+}
+.comments .comment img {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 2rem;
+  margin-top: 0.7rem;
+}
+.comments .comment .name {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.comments .comment .name:hover {
+  text-decoration: underline;
+}
+.comments .comment .info {
+  font-size: 1.4rem;
+}
+.comments .comment .down a {
+  font-size: 1.3rem;
+  margin-right: 0.5rem;
+}
+.comments .comment .down a:hover {
+  text-decoration: underline;
+}
+.comments .comment .down span {
+  font-size: 1.3rem;
+  margin-left: 1rem;
+  color: #888;
+}
+
+@media (max-width: 768px) {
+  .content .title h1 {
+    font-size: 4rem;
+  }
+  .content .title h1 a {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 567px) {
+  .container {
+    padding: 0 2rem;
+  }
+
+  .content .title h1 {
+    font-size: 3rem;
+  }
+  .content .title h1 a {
+    font-size: 2rem;
+  }
+  .content .pic-1 {
+    float: none;
+  }
+  .content h2 {
+    font-size: 2.5rem;
+  }
+  .content h3 {
+    font-size: 2rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
