@@ -167,8 +167,6 @@ a {
   margin-bottom: 2rem;
 }
 .comments .comment {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
   align-items: flex-start;
   padding-bottom: 3rem;
 }
@@ -231,6 +229,11 @@ a {
   }
   .content h3 {
     font-size: 2rem;
+  }
+
+  .comments .comment {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
   }
 }
 
