@@ -164,6 +164,7 @@ a {
   padding-bottom: 3rem;
 }
 .comments .comment img {
+  display: inline-block;
   width: 5rem;
   height: 5rem;
   margin-right: 2rem;
