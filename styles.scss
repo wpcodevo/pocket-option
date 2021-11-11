@@ -81,6 +81,12 @@ a {
   }
 }
 
+.blue-line {
+  height: 1rem;
+  background-color: #e1eef6;
+  margin-bottom: 2rem;
+}
+
 @media (min-width: 567px) {
   .logo {
     h1 {
@@ -178,6 +184,8 @@ a {
   }
 
   .comment {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
     align-items: flex-start;
     padding-bottom: 3rem;
 
