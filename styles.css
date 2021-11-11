@@ -187,7 +187,8 @@ a {
   text-decoration: underline;
 }
 .comments .comment .info {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
 }
 .comments .comment .down a {
   font-size: 1.3rem;
